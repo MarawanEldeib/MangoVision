@@ -1,0 +1,86 @@
+# Ignore Python virtual environments
+venv/
+Lib/
+myenv/
+*/venv/
+*/Lib/
+*/myenv/
+
+# Ignore dataset and zip/rar files
+*.zip
+*.rar
+*.tar.gz
+*.7z
+*.tar
+*.gz
+*.npz
+*.h5
+*.hdf5
+*.npy
+*.csv
+*.mat
+collected dataset/
+faster rcnn models/mangoes/
+
+# Ignore model weights and checkpoints
+*.pth
+*.pkl
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+
+# Ignore cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.lib
+*.egg-info/
+build/
+dist/
+*.log
+
+# Ignore large video and media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.flac
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore results and output folders
+*/Local Dataset DETECTRON2 Results/
+*/Sydney Dataset DETECTRON2 Results/
+*/Training log saved/
+*/output_video*/
+
+# Ignore all images and annotation files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.txt
+*.xml
+*.json
+*.yaml
+*.yml
+*.csv
+
+# Ignore MangoVision's own .git folder if copying
+MangoVision/.git/
